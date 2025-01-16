@@ -1,0 +1,17 @@
+"UnlitGeneric"
+{
+	"$basetexture" "arc\acrtex\models\tqa65\acr_km_sight_brass"
+    "$translucent" "1" 
+
+	/////////////////
+    "$color2" "[1 1 1]"     
+    "$blendtintbybasealpha" "1" 	//do not touch this
+    /////////////////   
+	
+    $detail "arc\acrtex\models\tqa65\acr_km_sight_brass"
+    $detailscale 1        //scales the detail texture to same size as diffuse.
+    $detailblendfactor 1  //lower values make the texture less visible. 0.0 - 1.0
+    $detailblendmode 0
+	
+
+}

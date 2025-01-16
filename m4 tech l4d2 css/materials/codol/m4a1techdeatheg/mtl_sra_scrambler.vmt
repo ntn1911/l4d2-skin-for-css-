@@ -1,0 +1,27 @@
+VertexLitGeneric
+{
+	$basetexture "codol\m4a1techdeatheg\mtl_sra_scrambler"
+	$bumpmap "codol\m4a1techdeatheg\mtl_sra_scrambler_n"
+	$phong	"1"
+	$phongboost	"18"
+	$phongfresnelranges	"[.78 .9 1]"
+	$phongalbedotint "1"
+    $selfillum "1"
+	$envmap	"env_cubemap"
+	$envmaptint	"{2.5 2.5 2.5}"
+	$normalmapalphaenvmapmask	"1"
+	$envmapfresnel	"1"
+
+	$rimlight	"1"
+	$rimmask	"1"
+	$rimlightboost	"1"
+	$rimlightexponent	"2"
+
+
+$detailscale "1.75"
+$detailblendfactor 0.01
+$detailblendmode 0
+$detailAmount 0
+$selfillum 1
+
+}

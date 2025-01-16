@@ -1,0 +1,23 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\codmw2022\weapons\iso45\ammo45"
+"$bumpmap" "models\codmw2022\weapons\iso45\ammo45_n"
+
+	"$phongexponenttexture" "models\codmw2022\weapons\iso45\exponent"
+
+	"$color2" "[.4 .4 .4]"
+	"$blendtintbybasealpha" "1"
+	"$phong" "1"
+	"$phongboost" "30"
+	"$phongexponent" "15"
+	"$phongalbedotint" "1"
+	"$PhongFresnelRanges" "[ .1 .5 1 ]"
+	"$envmap" "env_cubemap"
+	"$basemapalphaenvmapmask" "1"
+	"$envmapfresnel" "1"
+	"$envmaptint" "[ 0.1 0.1 0.1 ]"
+
+
+
+
+}

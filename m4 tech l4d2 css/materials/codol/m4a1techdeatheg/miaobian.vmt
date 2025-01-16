@@ -1,0 +1,41 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "codol\m4a1techdeatheg\miaobian"
+
+$selfillum 1
+
+$detail "codol\m4a1techdeatheg\miaobian2"
+
+$detailscale "1"
+//$detailblendfactor "1"
+$detailblendmode "2"
+
+    Proxies
+	{
+        "Sine"
+        {
+		     "resultVar" "$detailblendfactor"
+			 "sineperiod"    "10"
+			 "sinemin"       "-1"
+			 "sinemax"       "1.99"
+		}	 
+		"Clamp"
+		{
+		    "min"            "0"
+		    "max"            "1"
+		    "srcVarl"        "$detailblendfactor"
+		    "resultVar"      "$detailblendfactor"
+		}
+		"TextureScroll"
+		{
+		    "texturescrollvar" "$baseTextureTransform"
+		    "Texturescrollrate" "0.2"
+		    "Texturescrollangle" "0"
+		}
+		"TextureScroll"
+		{
+		    "texturescrollvar" "$detailtexturetransform"
+		    "Texturescrollrate" "0.6"
+		    "Texturescrollangle" "180"
+	}	}
+}

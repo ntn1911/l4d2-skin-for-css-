@@ -1,0 +1,45 @@
+vertexlitgeneric
+{
+	"$basetexture"             	"models/weapons/v_models/Gura/eq_sonar_bomb/sonar_bomb2"
+	// 法线贴图路径
+    "$bumpmap"  				"models/weapons/v_models/Gura/eq_sonar_bomb/sonar_bomb_normal2"
+
+	// 反射
+    "$PhongExponentTexture" 	"models/weapons/v_models/Gura/eq_sonar_bomb/sonar_bomb_exponent"
+    "$phongwarptexture" 		"models/weapons/v_models/Gura/eq_sonar_bomb/phongwarp_steel"
+	"$phong" 					"1"
+	"$phongboost" 				"3.5"
+	"$phongexponent" 			"10"
+	"$phongalbedotint" 			"1"
+	"$PhongFresnelRanges" 		"[ 1 0.5 0 ]"
+
+	// 环境反射
+    "$envmap"   				"env_cubemap"
+    "$envmapfresnel"    		"1"
+    "$envmaptint"   			"[ 0.1 0.1 0.1 ]"
+    "$normalmapalphaenvmapmask" "1"
+
+	// 杂项参数
+    "$halflambert"  			"1"											//增加亮度
+	"$cloakPassEeabled" 		"1"											//启用遮盖
+	"$color2" "[.8 .8 .8]"													//色调
+	"$blendtintbybasealpha" 	"1"
+
+	// 自发光
+	$selfillum 					"1"											//优先启用基础贴图的alpha
+	$selfillummask 				"models\weapons\v_models\Gura\eq_sonar_bomb\glowmask"	//蒙版夜光路径需开启自发光和高shader
+
+	//	动态-渐变
+	Proxies
+	{
+		"Sine"
+		{
+			"resultVar"	"$alpha"
+			//"timeoffset" "20"			//相位 多渐变(渐变全息)用,使多贴图错开
+			"sineperiod" 40
+			"sinemin" -22
+			"sinemax" 22.99
+		}
+	}
+
+}

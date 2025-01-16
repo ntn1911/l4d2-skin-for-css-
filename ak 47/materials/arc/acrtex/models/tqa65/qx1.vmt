@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "arc\acrtex\models\tqa65\qx1"
+    "$additive" "1"
+	"$selfillum"	"1"
+	"$nocull"		"1"
+Proxies
+{
+AnimatedTexture //动态贴图
+{
+animatedTextureVar $basetexture //以$basetexture贴图
+animatedTextureFrameNumVar $frame //贴图的帧播放
+animatedTextureFrameRate 24 //速率，越大越快，可可以小数点但要加引号
+}
+}

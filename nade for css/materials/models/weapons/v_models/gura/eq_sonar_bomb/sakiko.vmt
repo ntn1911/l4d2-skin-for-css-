@@ -1,0 +1,31 @@
+vertexlitgeneric
+{
+	"$basetexture"             	"models/weapons/v_models/Gura/eq_sonar_bomb/sakiko"
+	// 法线贴图路径
+    "$bumpmap"  				"models/weapons/v_models/Gura/eq_sonar_bomb/sakiko_n"
+
+	// 反射
+    "$PhongExponentTexture" 	"models/weapons/v_models/Gura/eq_sonar_bomb/phong_exp"
+    "$phongwarptexture" 		"models/weapons/v_models/Gura/eq_sonar_bomb/phongwarp_steel"
+	"$phong" 					"1"
+	"$phongboost" 				"3.5"
+	"$phongexponent" 			"10"
+	"$phongalbedotint" 			"1"
+	"$PhongFresnelRanges" 		"[ 1 0.5 0 ]"
+
+	// 环境反射
+    "$envmap"   				"env_cubemap"
+    "$envmapfresnel"    		"1"
+    "$envmaptint"   			"[ 0.1 0.1 0.1 ]"
+    "$normalmapalphaenvmapmask" "1"
+
+	// 杂项参数
+    "$halflambert"  			"1"											//增加亮度
+	"$cloakPassEeabled" 		"1"											//启用遮盖
+	"$color2" "[.8 .8 .8]"													//色调
+	"$blendtintbybasealpha" 	"1"
+
+	// 自发光
+	$selfillum 					"1"											//优先启用基础贴图的alpha
+	$selfillummask 				"models\weapons\v_models\Gura\eq_sonar_bomb\glowmask"	//蒙版夜光路径需开启自发光和高shader
+}

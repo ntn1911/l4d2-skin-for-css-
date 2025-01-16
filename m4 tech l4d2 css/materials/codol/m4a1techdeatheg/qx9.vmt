@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+"$basetexture" "codol\m4a1techdeatheg\qx9"
+
+ "$nocull" "1"
+ "$additive" "1"
+ "$selfillum"  "1"
+ "$selfillumtint" "0.9 0.9 0.9"
+}
+

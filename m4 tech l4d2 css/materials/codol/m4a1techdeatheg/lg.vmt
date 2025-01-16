@@ -1,0 +1,15 @@
+VertexLitGeneric
+{
+    "$basetexture" "codol\m4a1techdeatheg/lg"
+ "$selfillum"   "1"
+ "$additive"	"1"
+ Proxies
+{
+	TextureScroll
+	{
+		texturescrollvar $baseTextureTransform
+		texturescrollrate 0.20
+		texturescrollangle 135.00
+	}
+}
+}

@@ -1,0 +1,22 @@
+"VertexLitGeneric"
+{
+	"$BaseTexture" 			    "weapons/papa220/ammo_d"
+	"$BumpMap" 				    "weapons/papa220/ammo_n"
+	"$PhongExponentTexture"     "weapons/papa220/ammo_g"
+
+	$phong	"1"
+	$phongboost	"0.75"
+	$phongfresnelranges	 "[2 4 6]"
+
+	$envmap	"env_cubemap"
+	$envmaptint	"[.05 .05 .05]"
+	$normalmapalphaenvmapmask	"1"
+	$envmapfresnel	"1"
+
+	$rimlight	"1"
+	$rimmask	"1"
+	$rimlightboost	"1"
+	$rimlightexponent	"25"
+
+	$nocull                  "1"
+}
