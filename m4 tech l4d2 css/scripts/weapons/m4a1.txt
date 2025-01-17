@@ -15,7 +15,7 @@
 	"CompatibilityAttenuation"	"1.0"
 	"pitch"		"95,105"
 
-	   "wave"	     "by_daimon/weapons\m4a4\rifle_fire_1.wav"
+	   "wave"	     "weapons\m4\rifle_fire_1.wav"
       
 }
 "Draw.1"
