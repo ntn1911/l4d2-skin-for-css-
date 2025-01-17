@@ -1,0 +1,70 @@
+"Weapon_AUG.Single"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"95,105"
+
+	"wave"			"weapons/aug/rifle_fire_1.wav"
+	
+	
+}
+"AUG.Clipin"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"95,105"
+
+	"wave"			"by_daimon/weapons/aug/aug_clipin.wav"
+	
+}
+"Rifle_Desert.ClipIn"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"95,105"
+
+	"wave"			"weapons/aug/rifle_clip_in_1.wav"
+	
+}
+"Rifle_Desert.ClipOut"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"95,105"
+
+	"wave"			"weapons/aug/rifle_clip_out_1.wav"
+	
+}
+"Rifle_Desert.SlideForward"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"95,105"
+
+	"wave"			"weapons/aug/rifle_slideforward_1.wav"
+	
+}
+"Rifle_Desert.SlideBack"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		".7"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"95,105"
+
+	"wave"			"weapons/aug/rifle_slideback_1.wav"
+	
+}
+"AUG.Draw"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		".5"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"		"95,105"
+
+	"wave"			"by_daimon/weapons/aug/aug_draw.wav"
+}

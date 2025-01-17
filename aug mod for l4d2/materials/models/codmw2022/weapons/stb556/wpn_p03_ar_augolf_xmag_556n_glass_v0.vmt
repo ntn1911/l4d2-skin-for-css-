@@ -1,0 +1,27 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\CoDMW2022\Weapons\stb556\wpn_p03_ar_augolf_xmag_556n_glass_v0"
+"$bumpmap" "models\CoDMW2022\Weapons\stb556\wpn_p03_ar_augolf_xmag_556n_glass_v0_n"
+
+	"$blendtintbybasealpha" "1"
+	"$phong" "1"
+	"$phongboost" "25"
+	"$phongexponent" "15"
+	"$phongalbedotint" "1"
+	"$PhongFresnelRanges" "[ .1 .5 1 ]"
+	"$envmap" "env_cubemap"
+	"$basemapalphaenvmapmask" "1"
+	"$envmapfresnel" "1"
+	"$envmaptint" "[ 0.1 0.1 0.1 ]"
+
+	"$phongexponenttexture" "models/CoDMW2022\Weapons\stb556\exponent"
+
+	"$selfillum" "1"
+	"$selfillummask" "models\CoDMW2022\Weapons\stb556\wpn_p03_ar_augolf_xmag_556n_glass_v0_se"
+	"$selfillumtint" "0.1 0.1 0.1"	
+
+
+
+
+
+}
